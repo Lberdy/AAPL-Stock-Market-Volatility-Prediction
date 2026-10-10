@@ -208,7 +208,7 @@ pip install torch yfinance streamlit pandas numpy scikit-learn ta joblib matplot
 ### Run the dashboard
 
 ```bash
-streamlit run app.py
+streamlit run my_app.py
 ```
 
 The app automatically fetches the latest AAPL data from Yahoo Finance — no manual upload needed.
