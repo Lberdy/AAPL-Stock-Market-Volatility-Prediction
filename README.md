@@ -21,8 +21,8 @@ This project predicts **tomorrow's realized volatility** (20-day rolling standar
 |---|---|---|---|
 | Naive persistence baseline | 9.63% | — | — |
 | GARCH (industry standard) | 15–25% | — | — |
-| **LSTM** | **9.55%** | **+0.08%** | **56.28%** |
-| **GRU** | **9.48%** | **+0.15%** | **56.87%** |
+| **LSTM** | **9.22%** | **+0.20%** | **56.01%** |
+| **GRU** | **9.18%** | **+0.23%** | **56.20%** |
 
 **Key finding:** GRU outperforms LSTM on all metrics. This suggests that volatility clustering patterns don't require extremely long memory, making GRU's simpler gating mechanism a better fit for this problem. Both models significantly outperform GARCH.
 
