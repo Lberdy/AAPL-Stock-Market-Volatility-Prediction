@@ -192,8 +192,8 @@ GRU has fewer parameters (2 gates vs 3) and shorter effective memory. For volati
 | More training data (tr + val) | 11.55% |
 | Quantile loss (q=0.68) | 10.26% |
 | W optimization via Optuna | 9.61% |
-| Final LSTM | 9.55% |
-| **Final GRU** | **9.48%** |
+| Final LSTM | 9.22% |
+| **Final GRU** | **9.18%** |
 
 ---
 

@@ -1,5 +1,4 @@
 import streamlit as st
-import numpy as np
 import pandas as pd
 import torch
 import torch.nn as nn
@@ -8,7 +7,7 @@ import ta
 import joblib
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-from datetime import datetime, timedelta
+from datetime import timedelta
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
