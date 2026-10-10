@@ -202,7 +202,7 @@ GRU has fewer parameters (2 gates vs 3) and shorter effective memory. For volati
 ### Install dependencies
 
 ```bash
-pip install torch yfinance streamlit pandas numpy scikit-learn ta joblib matplotlib optuna
+pip install -r requirements.txt
 ```
 
 ### Run the dashboard
